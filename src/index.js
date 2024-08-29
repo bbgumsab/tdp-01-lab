@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Greeting from './Greeting';
+import JapFoodNav from './components/JapFoodNav';
+import JapFoodBooking from './components/JapFoodBooking';
+import JapFoodAboutUs from './components/JapFoodAboutUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <div className="App">
+      <Greeting name="UOBxTDP" />
+    </div> */}
+    {/* <App /> */}
+    <JapFoodNav home="Home" about="About Us" menu="Our Menu" contact="Contact Us"/>
+    <JapFoodBooking />
+    <JapFoodAboutUs />
   </React.StrictMode>
 );
 
