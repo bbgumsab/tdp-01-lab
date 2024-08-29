@@ -80,3 +80,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 1em;
   }
+
+  #border {
+    border: 10px solid pink;
+  }
