@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tdp-01-lab/static/css/main.2bac246c.css",
+    "main.js": "/tdp-01-lab/static/js/main.209b6750.js",
+    "static/js/453.f5032a1a.chunk.js": "/tdp-01-lab/static/js/453.f5032a1a.chunk.js",
+    "static/media/japanese-food-2.jpg": "/tdp-01-lab/static/media/japanese-food-2.29282ac89e4b4e73af29.jpg",
+    "static/media/japanese-food-1.jpg": "/tdp-01-lab/static/media/japanese-food-1.2f5cb6bd4d9d310a22e0.jpg",
+    "index.html": "/tdp-01-lab/index.html",
+    "main.2bac246c.css.map": "/tdp-01-lab/static/css/main.2bac246c.css.map",
+    "main.209b6750.js.map": "/tdp-01-lab/static/js/main.209b6750.js.map",
+    "453.f5032a1a.chunk.js.map": "/tdp-01-lab/static/js/453.f5032a1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bac246c.css",
+    "static/js/main.209b6750.js"
+  ]
+}
