@@ -8,6 +8,9 @@ import DisplayMessage from './components/DisplayMessage';
 import SumOfTwo from './components/SumOfTwo';
 import BorderedImage from './components/BorderedImage';
 import japFood from './components/images/food/japanese-food-1.jpg';
+import NumberBox from './components/NumberBox';
+import AlertBox from './components/AlertBox';
+import TickleBox from './components/TickleBox';
 
 function App() {
   return (
@@ -39,6 +42,9 @@ function App() {
       <DisplayMessage message="Hello there!"/>
       <SumOfTwo int1={1} int2={2}/>
       <BorderedImage img={japFood}/>
+      <NumberBox initialValue={5}/>
+      <AlertBox/>
+      <TickleBox/>
     </>
   );
 }
