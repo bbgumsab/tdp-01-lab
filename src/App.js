@@ -1,18 +1,19 @@
-import logo from "./logo.svg";
-import photo from "./CJDS.png";
+// import logo from "./logo.svg";
+// import photo from "./CJDS.png";
 import "./App.css";
-import JapFoodNav from "./components/JapFoodNav";
-import JapFoodBooking from "./components/JapFoodBooking";
-import JapFoodAboutUs from "./components/JapFoodAboutUs";
-import DisplayMessage from "./components/DisplayMessage";
-import SumOfTwo from "./components/SumOfTwo";
-import BorderedImage from "./components/BorderedImage";
-import japFood from "./components/images/food/japanese-food-1.jpg";
-import NumberBox from "./components/NumberBox";
-import AlertBox from "./components/AlertBox";
-import TickleBox from "./components/TickleBox";
-import RandomUser from "./components/RandomUser";
-import Users from "./components/Users";
+// import JapFoodNav from "./components/JapFoodNav";
+// import JapFoodBooking from "./components/JapFoodBooking";
+// import JapFoodAboutUs from "./components/JapFoodAboutUs";
+// import DisplayMessage from "./components/DisplayMessage";
+// import SumOfTwo from "./components/SumOfTwo";
+// import BorderedImage from "./components/BorderedImage";
+// import japFood from "./components/images/food/japanese-food-1.jpg";
+// import NumberBox from "./components/NumberBox";
+// import AlertBox from "./components/AlertBox";
+// import TickleBox from "./components/TickleBox";
+// import RandomUser from "./components/RandomUser";
+// import Users from "./components/Users";
+import RandomPokemon from "./components/RandomPokemon";
 
 function App() {
   return (
@@ -48,7 +49,7 @@ function App() {
       <AlertBox />
       <TickleBox />
       <RandomUser /> */}
-      <Users />
+      <RandomPokemon />
     </>
   );
 }
