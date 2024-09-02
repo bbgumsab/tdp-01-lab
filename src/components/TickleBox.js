@@ -1,20 +1,21 @@
-import React from 'react';
-
+import React from "react";
 
 export default class TickleBox extends React.Component {
-    mouserOver = () => {
-        alert("That tickles!");
-    }
+  // mouserOver = () => {
+  //     alert("That tickles!");
+  // }
 
-    render() {
-        return (
-            <div onMouseOver={this.mouserOver}
-                style={{
-                border:"4px solid black",
-                padding:"10px"
-            }}>
-                Tickle me!
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div
+        onMouseOver={this.mouserOver}
+        style={{
+          border: "4px solid black",
+          padding: "10px",
+        }}
+      >
+        Tickle me!
+      </div>
+    );
+  }
 }
