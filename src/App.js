@@ -12,6 +12,7 @@ import NumberBox from "./components/NumberBox";
 import AlertBox from "./components/AlertBox";
 import TickleBox from "./components/TickleBox";
 import RandomUser from "./components/RandomUser";
+import Users from "./components/Users";
 
 function App() {
   return (
@@ -40,13 +41,14 @@ function App() {
     // </>
 
     <>
-      <DisplayMessage message="Hello there!" />
+      {/* <DisplayMessage message="Hello there!" />
       <SumOfTwo int1={1} int2={2} />
       <BorderedImage img={japFood} />
       <NumberBox initialValue={5} />
       <AlertBox />
       <TickleBox />
-      <RandomUser />
+      <RandomUser /> */}
+      <Users />
     </>
   );
 }
